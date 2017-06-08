@@ -1,0 +1,63 @@
+body {
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    margin: 10px auto;
+    max-width: 1000px;
+    height: 80px;
+    text-align: center;
+}
+
+
+form input[type="text"] {
+    width: 400px;
+    height: 45px;
+    border: none;
+    font-size: 18px;
+}
+
+.menu {
+    background: none;
+    border: none;
+    outline: none;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+#logo {
+    display: block;
+    margin: 20px auto;
+}
+
+#find, #near {
+    padding: 0 13px;
+}
+
+#searchbar {
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+#gap {
+    display: inline-block;
+    width: 35%;
+}
+
+#signup {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 23px;
+}
+
+#credit {
+    text-align: center;
+    color: white;
+    margin-top: 210px;
+}

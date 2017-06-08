@@ -53,6 +53,13 @@ li a:hover {
   margin: auto;
   vertical-align: justify;
 }
+
+.restaurants {
+    content:url(https://www.pinterest.com/pin/522065781789710561/);
+    margin: 0 auto;
+    width: 20px;
+}
+
 /*
 .events {
   display: block;

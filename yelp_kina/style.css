@@ -2,62 +2,114 @@ body {
     background-image: url(./background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 nav {
     margin: 10px auto;
     max-width: 1000px;
     height: 80px;
     text-align: center;
+    margin-top: 20px;
 }
 
-
-form input[type="text"] {
-    width: 400px;
-    height: 45px;
+form input[type="search"] {
+    width: 340px;
+    height: 40px;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
+    outline: none;
+    color: #999EBA;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    line-height: 1px;
+    color: white;
+    font-size: 13px;
+}
+
+footer img {
+    width: 30px;
+    border-radius: 3px;
 }
 
 .menu {
     background: none;
     border: none;
     outline: none;
-    margin: 20px;
-    font-size: 15px;
-    font-weight: 500;
+    margin: 6px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 700;
     color: white;
+}
+
+.menu:hover {
+    border-bottom: 2px solid white;
 }
 
 #logo {
     display: block;
-    margin: 20px auto;
+    width: 195px;
+    margin: 15px auto;
 }
 
 #find, #near {
-    padding: 0 13px;
+    padding: 3px 13px;
+    color: #666666;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#near {
+    border-left: 1px solid #CCCCCC; 
 }
 
 #searchbar {
-    max-width: 1000px;
-    margin: 20px auto;
-    font-size: 20px;
+    max-width: 820px;
+    margin: 5px auto;
     background: white;
-    border-radius: 5px;
+    border-radius: 3px;
+}
+
+#search-button {
+    background-color: #BE2020;
+    position: absolute;
+    vertical-align: middle;
+    margin-left: -10px;
+    padding: 0.57em 1.12em;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#search-button:hover {
+    background-color: #AA2222;
+}
+
+#search-button img {
+    width: 18px;
 }
 
 #gap {
     display: inline-block;
-    width: 35%;
+    width: 48%;
 }
 
 #signup {
     border: 2px solid white;
-    border-radius: 5px;
-    padding: 8px 23px;
+    border-radius: 3px;
+    padding: 7px 18px;
 }
 
-#credit {
-    text-align: center;
-    color: white;
-    margin-top: 210px;
+#signup:hover {
+    background-color: white;
+    color: #666666;
+}
+
+#photographer {
+    font-weight: 800;
 }
